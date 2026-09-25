@@ -24,9 +24,9 @@ import {
 
 const projects = [
   {
-    title: "Chat Terminal P2P",
-    image:
-      "https://i.imgur.com/NFLc9Rm.png",
+    title: "Task Manager PKL",
+    image: "/projects/taskmanagerpkl.png",
+    dark: true,
   },
   {
     title: "Tella Truth",
@@ -40,13 +40,21 @@ const projects = [
     dark: true,
   },
   {
-    title: "Gemini Clone",
-    image:
-      "https://api.builder.io/api/v1/image/assets/TEMP/d0bcc2938eeb799a75638e9cc07f6a1cd4c26246?width=1614",
+    title: "Qtic Concert Ticketing",
+    image: "/projects/qtic1.png",
   },
 ];
 
 const certificates = [
+  {
+    issuer: "Dicoding",
+    title: "Belajar Dasar Pemrograman Web",
+    date: "30 Agustus 2026",
+    detail: "Kelulusan kelas online",
+    accent: "from-[#1d1d1d] via-[#2bb673] to-[#0b2239]",
+    mark: "DICODING",
+    image: "/certificate/dicoding-web-6RPNODDQ9X2M.png",
+  },
   {
     issuer: "ID-Networkers",
     title: "Introduction to Capture the Flag",
@@ -447,7 +455,7 @@ export default function Index() {
                 <p className="text-sm text-charcoal-muted-2">Email:</p>
                 <a
                   className="mt-1 block text-base hover:underline sm:text-lg"
-                  href="mailto:bariqainulfikri@gmail.com"
+                  href="mailto:bariqainulfikri99@gmail.com"
                 >
                   bariqainulfikri99@gmail.com
                 </a>
@@ -463,7 +471,9 @@ export default function Index() {
               </div>
             </div>
             <a
-              href="mailto:bariqainulfikri@gmail.com"
+              href="https://github.com/yorukasei"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex h-40 w-40 items-center justify-center rounded-full bg-accent-blue text-base text-white transition-transform hover:scale-105 sm:h-48 sm:w-48"
             >
               Get in touch
