@@ -4,6 +4,7 @@ import {
   Award,
   ArrowUpLeft,
   Cloud,
+  Download,
 } from "lucide-react";
 import { useRef, useState } from "react";
 import type { ReactNode } from "react";
@@ -367,11 +368,15 @@ export default function Index() {
             <p className="max-w-4xl text-lg font-medium leading-tight sm:text-xl lg:text-2xl">
               Curious by nature, I focus on building web applications and exploring software engineering. Currently learning, experimenting, and turning ideas into clean, working code.
             </p>
-            <div className="max-w-sm shrink-0 text-right">
-              <p className="text-sm font-light uppercase leading-relaxed tracking-wide text-white sm:text-lg">
-                
-              </p>
-            </div>
+            <a
+              href="/cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#6a4cff] via-[#9d4edd] to-[#ff2b82] px-7 py-4 text-lg font-semibold text-white shadow-[0_0_0_4px_rgba(255,255,255,0.15)] shadow-[0_0_25px_rgba(106,76,255,0.55)] transition-all duration-300 hover:scale-105 hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+            >
+              <Download className="h-6 w-6" />
+              <span>View CV</span>
+            </a>
           </div>
         </header>
       </section>
